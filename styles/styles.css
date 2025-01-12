@@ -331,6 +331,12 @@ nav {
 .Quote{
     background-color: #FFFFFF, rgba(14, 14, 14, 0.15);
     border-radius: 16px;
+    padding: 57px 28px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
+    margin: 38px 190px 38px 190px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 .Quote-para{
     color: rgba(14, 14, 14, 0.8);
