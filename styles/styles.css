@@ -164,7 +164,7 @@ nav {
 }
 
 .small-title {
-    color:rgba(14, 14, 14, 0.5);
+    color: rgba(14, 14, 14, 0.5);
     font-weight: 500;
     font-style: normal;
     font-size: 28px;
@@ -178,29 +178,31 @@ nav {
     margin-bottom: 24px;
 }
 
-.banner img{
+.banner img {
     width: 562px;
     height: 475px;
 
 }
+
 /* pixel multiply by 1.1875 */
 
 /* Pillars styles */
-.pillars-section{
-    background-color:#FFFFFF;
+.pillars-section {
+    background-color: #FFFFFF;
     margin: 95px 190px;
     width: 1520px;
     height: 384px;
-    justify-content: space-around;
 }
-.pillar-title{
-    color:#0E0E0E;
+
+.pillar-title {
+    color: #0E0E0E;
     font-weight: bold;
     font-size: 47px;
     padding: 0%;
     margin-bottom: 20px;
 }
-.pillar{
+
+.pillar {
     background-color: #FFFFFF;
     border-radius: 16px;
     padding: 28px 28px;
@@ -210,17 +212,135 @@ nav {
     font-size: 19px;
     font-weight: 400;
     text-align: left;
-    border-radius: 10px;
-    border-color: rgba(0, 0, 0, 0.25); width: 100%;
-    
+    border-radius: 16px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
 }
-.pillars-itself{
+
+.margin-l {
+    margin-left: 28px;
+}
+
+.margin-r {
+    margin-right: 28px;
+}
+
+.margin-lr {
+    margin: 0px 28px 0px 28px;
+}
+
+.pillars-itself {
     display: flex;
+    justify-content: space-evenly;
 }
+
+/* Vision Of Future styles */
+.vision {
+    background-color: #F1F1F3;
+    align-items: center;
+
+}
+
+.vision-title {
+    font-size: 47px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    margin: 0px 190px 28px 190px;
+
+}
+
+.vision-description {
+    font-size: 19px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0px 190px 38px 190px;
+
+}
+
+.vision-things {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.vision-idea-name {
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.vision-idea-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.bg-blu {
+    background-color: rgba(84, 144, 245, 0.2);
+    color: #FFFFFF;
+    padding: 38px;
+    border-radius: 16px;
+    margin: 0px 45px 0px 190px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-blu {
+    padding: 23px 20px;
+    color: #FFFFFF;
+    background-color: #5490f5;
+    border: 486px 385px;
+    border-radius: 8px;
+    border-color:#5490f5;
+}
+
+.bg-greene {
+    color: #FFFFFF;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 38px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-greene {
+    padding: 23px 20px;
+    color: #FFFFFF;
+    background-color: #09a15c;
+    border: 486px 385px;
+    border-radius: 8px;
+    border-color: #09a15c;
+}
+
+.bg-yellow {
+    background-color: rgba(247, 235, 207, 1);
+    color: #FFFFFF;
+    padding: 38px;
+    border-radius: 16px;
+    margin: 0px 190px 0px 45px;
+    border: 486px 385px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-yellow {
+    padding: 23px 20px;
+    color: #FFFFFF;
+    background-color: #FFC239;
+    border-radius: 8px;
+    border-color: #FFC239;
+}
+/* Quote styles */
+.Quote{
+    background-color: #FFFFFF, rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.Quote-para{
+    color: rgba(14, 14, 14, 0.8);
+}
+
 /* footer styles */
-footer{
+footer {
     justify-content: center;
 }
-.foot-icons{
+
+.foot-icons {
     display: flex;
 }
