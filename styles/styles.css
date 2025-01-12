@@ -1,0 +1,30 @@
+/* shared styles */
+.bg-green{
+    background-color: #006A50 #0E0E0E #0E0E0E #FFFFFF #C6E4D6 #F30200;;
+
+}
+.btn-prime{
+    background-color: #FD6E0A;
+    color: white;
+}
+
+/* nav styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.btn-sign{
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #006A50;
+}
