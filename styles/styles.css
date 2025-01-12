@@ -337,8 +337,72 @@ nav {
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+
 }
 .Quote-para{
+    color: rgba(14, 14, 14, 0.8);
+}
+/* News Styles */
+.news{
+    justify-content: center;
+}
+.heading{
+    font-size: 47px;
+    font-weight: bold;
+    width: 1520px;
+    height: 47px;
+    color: #0E0E0E;
+    margin: 95px 190px 28px 190px;
+}
+.news-p{
+    font-weight: 400;
+    font-size: 19px;
+    width: 1520px;
+    height: 47px;
+    color: rgba(14, 14, 14, 0.7);
+    text-shadow: 2px 2px 4px #000000;
+    margin: 95px 190px 28px 190px;
+
+}
+.dt{
+    display: flex;
+}
+.date, .time{
+    padding-right: 14px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 19px;
+}
+.details{
+    font-size: 19px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news1,.news2 ,.news3{
+    display: flex;
+    border-radius: 28px;
+    padding: 48px;
+    background-color: #FFFFFF;
+    width: 1520px;
+    height: 477px;
+    margin: 95px 190px 28px 190px;
+    border-color: #FFFFFF;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
+
+}
+.news1 img{
+    border-radius: 28px;
+    padding-right: 38px;
+}
+.news2 img{
+    border-radius: 28px;
+
+}
+.news3 img{
+    border-radius: 28px;
+    padding-right: 38px;
+}
+.headline{
+    font-size: 38px;
+    font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
 }
 
