@@ -1,11 +1,127 @@
-/* shared styles */
-.bg-green{
-    background-color: #006A50 #0E0E0E #0E0E0E #FFFFFF #C6E4D6 #F30200;;
-
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
 }
-.btn-prime{
-    background-color: #FD6E0A;
-    color: white;
+
+.fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+/* shared styles */
+.bg-green {
+    background-color: #C6E4D6;
+}
+
+.btn-prime {
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    border-radius: 15px;
+    background-color: #006A50;
+    border-color: #006A50;
+
 }
 
 /* nav styles */
@@ -13,18 +129,98 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 200px;
+    background-color: #F5F5F5;
+    width: 1600px;
+    height: 100px;
 }
-.nav-title{
-    font-size: 32px;
+
+.nav-title {
+    font-size: 38px;
     font-weight: bold;
     color: #0E0E0E;
+    margin-left: 190px;
 }
-.btn-sign{
+
+.btn-sign {
     background-color: #F5F5F5;
-    border-radius: 15px;
+    border-color: #006A50;
+    border-radius: 8px;
     padding: 15px 30px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 21px;
+    font-style: normal;
     color: #006A50;
+}
+
+/* Banner styles */
+.banner {
+    display: flex;
+    border-radius: 24px;
+    padding: 100px 80px;
+    width: 1280px;
+    height: 560px;
+    margin: 24px 190px;
+    justify-content: space-between;
+}
+
+.small-title {
+    color:rgba(14, 14, 14, 0.5);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+}
+
+.big-title {
+    font-size: 60px;
+    font-weight: bold;
+    width: 622px;
+    padding: 0px;
+    margin-bottom: 24px;
+}
+
+.banner img{
+    width: 562px;
+    height: 475px;
+
+}
+/* pixel multiply by 1.1875 */
+
+/* Pillars styles */
+.pillars-section{
+    background-color:#FFFFFF;
+    margin: 95px 190px;
+    width: 1520px;
+    height: 384px;
+    justify-content: space-around;
+}
+.pillar-title{
+    color:#0E0E0E;
+    font-weight: bold;
+    font-size: 47px;
+    padding: 0%;
+    margin-bottom: 20px;
+}
+.pillar{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 28px 28px;
+    width: 358px;
+    height: 289px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 19px;
+    font-weight: 400;
+    text-align: left;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.25); width: 100%;
+    
+}
+.pillars-itself{
+    display: flex;
+}
+/* footer styles */
+footer{
+    justify-content: center;
+}
+.foot-icons{
+    display: flex;
 }
