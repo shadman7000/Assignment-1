@@ -446,7 +446,7 @@ nav {
     justify-content: space-evenly;
     margin: 32px 123px 32px 123px;
 }
-.donate textarea{
+.donate input{
     height: 50px;
     width: 1200px;
     color: rgba(14, 14, 14, 0.3);
