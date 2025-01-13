@@ -471,6 +471,10 @@ nav {
     height: 152px;
     text-align: center;
 }
+.donation:hover{
+    background-color: #C6E4D6;
+
+}
 .donate-done{
     margin: 38px 669px;
     border: none;
@@ -554,4 +558,8 @@ footer {
     align-items: center;
     margin: 10px 877px 59px 877px;
     padding-top: 50px;
+}
+button:hover{
+    font-size: 22px;
+    animation:normal;
 }
